@@ -4,23 +4,20 @@ import { Search, ShoppingBag, User, Menu, X } from "lucide-react";
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navLinks = [
-    "New In", "Handbags", "Women", "Men", "Jewelry & Watches", "Beauty", "Décor", "Gifts"
-  ];
+  const navLinks = ["Shop", "Roma", "Atrium", "About", "Journal"];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm">
       {/* Top banner */}
-      <div className="gucci-stripe w-full" />
-      <div className="bg-secondary py-2 text-center">
-        <p className="text-xs font-body tracking-[0.2em] text-muted-foreground uppercase">
-          Complimentary shipping & gift wrapping
+      <div className="bg-primary py-2 text-center">
+        <p className="text-[10px] font-body tracking-[0.3em] text-primary-foreground uppercase">
+          Complimentary shipping on all orders
         </p>
       </div>
 
       {/* Main nav */}
       <nav className="border-b border-border">
-        <div className="max-w-[1440px] mx-auto px-6 flex items-center justify-between h-16">
+        <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-16">
           {/* Left: hamburger on mobile */}
           <button
             className="lg:hidden text-foreground"
@@ -29,31 +26,31 @@ const Navbar = () => {
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
 
-          {/* Logo */}
-          <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0">
-            <h1 className="font-display text-2xl lg:text-3xl font-semibold tracking-[0.15em] text-foreground">
-              GUCCI
-            </h1>
-          </div>
-
-          {/* Desktop links */}
-          <div className="hidden lg:flex items-center gap-6 flex-1 justify-center">
+          {/* Desktop links left */}
+          <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
                 key={link}
                 href="#"
-                className="text-[11px] font-body tracking-[0.15em] uppercase text-foreground hover:text-primary transition-colors"
+                className="text-[11px] font-body tracking-[0.2em] uppercase text-foreground hover:text-muted-foreground transition-colors"
               >
                 {link}
               </a>
             ))}
           </div>
 
+          {/* Logo */}
+          <div className="absolute left-1/2 -translate-x-1/2">
+            <h1 className="font-display text-xl lg:text-2xl font-semibold tracking-[0.25em] text-foreground">
+              VOSTROS
+            </h1>
+          </div>
+
           {/* Icons */}
           <div className="flex items-center gap-5">
-            <Search size={18} className="text-foreground cursor-pointer hover:text-primary transition-colors" />
-            <User size={18} className="text-foreground cursor-pointer hover:text-primary transition-colors hidden sm:block" />
-            <ShoppingBag size={18} className="text-foreground cursor-pointer hover:text-primary transition-colors" />
+            <Search size={17} className="text-foreground cursor-pointer hover:text-muted-foreground transition-colors" />
+            <User size={17} className="text-foreground cursor-pointer hover:text-muted-foreground transition-colors hidden sm:block" />
+            <ShoppingBag size={17} className="text-foreground cursor-pointer hover:text-muted-foreground transition-colors" />
           </div>
         </div>
       </nav>
@@ -66,7 +63,7 @@ const Navbar = () => {
               <a
                 key={link}
                 href="#"
-                className="block text-sm font-body tracking-[0.15em] uppercase text-foreground hover:text-primary transition-colors"
+                className="block text-sm font-body tracking-[0.2em] uppercase text-foreground hover:text-muted-foreground transition-colors"
               >
                 {link}
               </a>
