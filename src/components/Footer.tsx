@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h2 className="font-display text-xl font-semibold tracking-[0.25em] text-foreground mb-4">
-              VOSTROS
+              VOSTRAS
             </h2>
             <p className="text-xs font-body leading-relaxed text-muted-foreground">
               Elite men's essentials. Clean silhouettes, disciplined cuts, premium everyday fabrics.
@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="border-t border-border mt-16 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-[10px] font-body tracking-[0.2em] text-muted-foreground">
-              © 2026 VOSTROS — QUIET BY DESIGN
+              © 2026 VOSTRAS — QUIET BY DESIGN
             </p>
             <div className="flex gap-6">
               {["Instagram", "LinkedIn"].map((social) => (

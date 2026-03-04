@@ -3,7 +3,7 @@ const CampaignBanner = () => {
     <section className="relative w-full h-[70vh] md:h-[80vh] overflow-hidden">
       <img
         src="/images/hero-2.jpg"
-        alt="VOSTROS Atrium Collection"
+        alt="VOSTRAS Atrium Collection"
         className="w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-foreground/10" />

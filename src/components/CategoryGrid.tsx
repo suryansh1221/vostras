@@ -43,7 +43,7 @@ const CategoryGrid = () => {
             <div className="aspect-[3/4] overflow-hidden bg-secondary">
               <img
                 src={cat.image}
-                alt={`VOSTROS ${cat.subtitle} in ${cat.title}`}
+                alt={`VOSTRAS ${cat.subtitle} in ${cat.title}`}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>

@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="absolute left-1/2 -translate-x-1/2">
             <h1 className="font-display text-xl lg:text-2xl font-semibold tracking-[0.25em] text-foreground">
-              VOSTROS
+              VOSTRAS
             </h1>
           </div>
 

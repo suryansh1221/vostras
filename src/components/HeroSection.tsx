@@ -3,7 +3,7 @@ const HeroSection = () => {
     <section className="relative w-full h-screen overflow-hidden">
       <img
         src="/images/hero-1.jpg"
-        alt="VOSTROS Roma Poplin Shirt"
+        alt="VOSTRAS Roma Poplin Shirt"
         className="w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />

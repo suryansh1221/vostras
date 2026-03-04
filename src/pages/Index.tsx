@@ -56,10 +56,10 @@ const Index = () => {
         {/* Top bar */}
         <div className="flex items-center justify-between">
           <h1 className="font-display text-xl md:text-2xl font-semibold tracking-[0.4em]">
-            VOSTROS
+            VOSTRAS
           </h1>
           <p className="text-[8px] tracking-[0.5em] uppercase text-[#f5f0eb]/30 font-body hidden sm:block">
-            Est. 2025
+            Est. 1995
           </p>
         </div>
 
@@ -137,7 +137,7 @@ const Index = () => {
                   Thank you,<br /><span className="italic">{name}.</span>
                 </h2>
                 <p className="text-sm font-body text-[#f5f0eb]/40 leading-relaxed max-w-sm mx-auto">
-                  We'll reach out when the VOSTROS experience is ready.<br />Quiet by design.
+                  We'll reach out when the VOSTRAS experience is ready.<br />Quiet by design.
                 </p>
               </div>
             )}
